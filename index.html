@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        width: 98%;
+        /* border: solid; */
+        margin: auto;
+    }
+    table{
+        height: 100%;
+        background-color: black;
+    }
+    .main-table{
+        width: 100%;
+        /* border: solid red; */
+        margin: auto;
+    }
+    .inner-table{
+        width: 100%;
+        height: 100%;
+        /* border: solid red; */
+        margin: auto;
+    }
+    .td-img{
+        width: 30%;
+        height: 100%;
+        /* border: solid; */
+    }
+    .td-header{
+        width: 80%;
+        height: 3%;
+        /* border: solid green; */
+        background-color: black;
+    }
+    .td-banner{
+        width: 80%;
+        height: 6%;
+        background-color: grey;
+        background-image: linear-gradient(#302f2f, #202020,#0a0a0a);
+        /* border: solid green; */
+    }
+    .td-title, .td-subject, .td-service-title, .td-title-breadcrum{
+      padding-left: 3%;
+    }
+    .td-title{
+        width: 80%;
+        height: 5%;
+        background-color: #1E2021;
+        background-image: linear-gradient(#1D1E20, #1E2021,#1E2021);
+        /* border: solid green; */
+        color: #ffffff;
+    }
+    .td-title-breadcrum{
+        width: 80%;
+        height: 2%;
+        background-color: #1E2021;
+        background-image: linear-gradient(#1D1E20, #1E2021,#1E2021);
+        /* border: solid green; */
+        color: #c9c0c0;
+    }
+    .td-title h1{
+    font-size: xx-large;
+    }
+    .td-title-breadcrum .td-title-ico{
+       color: rgb(128, 128, 128);
+    }
+    .td-title-breadcrum .td-title-detail{
+       color:#588C73;
+       font-weight: 400;
+       font-size: small;
+       font-style: oblique;
+
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .td-subject{
+        width: 80%;
+        height: 10%;
+        font-size: small;
+        padding-top: 2%;
+        background-color: #0f0f0f;
+        /* border: solid green; */
+        color: #4E4F51;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: 1px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .td-service-title{
+        width: 80%;
+        height: 8%;
+        padding-top: 2%;
+        font-size: xx-large;
+        background-color: #0f0f0f;
+        /* border: solid green; */
+        color: #ffffff;
+    }
+    .td-service-1{
+        width: 50%;
+        height: 50%;
+        background-color: #0f0f0f;
+        font-weight: 700;
+        /* border: solid green; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #4E4F51;
+        padding-left: 3%;
+    }
+
+    .td-service-1 h4{
+    
+        color: #fff;
+
+    }
+    .row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 8px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+</style>
+<body>
+    <table class="main-table">
+        <tr>
+            <td class="td-img"  rowspan="8">
+                <img src="./images/image.jpg" style="width:100%;height: 100%;" alt="img" srcset="">
+            </td>
+            <td class="td-header">gfh</td>
+        </tr>
+        <tr>
+            <td class="td-banner"></td>
+        </tr>
+        <tr>
+            <td class="td-title">
+               <h1>about me</h1> 
+            </td>
+        </tr>
+        <tr>
+            <td class="td-title-breadcrum">
+               
+               <span class="td-title-detail">28 Years</span>&nbsp;&nbsp;
+               <span class="td-title-ico">/</span> &nbsp;&nbsp;
+               <span class="td-title-detail"> Lviv</span>&nbsp;&nbsp;
+               <span class="td-title-ico">/</span> &nbsp;&nbsp;
+               <span class="td-title-detail">Freelance</span> &nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td class="td-subject">
+                Prolific, full stack web developer with a passion for metrics and beating former<br>
+                     *best-yets.* prototyped 25 new product features per year for Flexor, inc<br>
+                     Decreased rework by 22%and Costs by 15% Consistently receive high user <br>
+                     experience scores for all web development projects, including a 55% increase<br>
+                     for Flexor, inc. Passionate about building world class web applications. one of<br>
+                     my sites received a 2015 Webby for best Navigation and structure> 
+            </td>
+        </tr>
+        <tr>
+            <td class="td-service-title">
+                <span>my services</span>
+            </td>
+        </tr>
+         <tr>
+             <td>
+                <table class="inner-table">
+                    <tr>
+
+                        <td class="td-service-1">
+                           
+                         <h4> <img src="./images/ico-1.png" alt="logo" height="28" width="28"> <br>
+                         development </h4>
+                         Building a custom tailored solution <br>
+                         based on your technical <br>
+                         specification 
+                         </td>
+                         <td class="td-service-1">
+                         <h4> <img src="./images/ico-2.png" alt="logo" height="28" width="28"> <br>
+                         SEO optimization </h4>
+                         Audit your web1site, perform <br>
+                         technical improvements and write <br>
+                         meta tags
+                     </td>
+                  </tr>
+                     <tr>
+                        <td class="td-service-1">
+                         <h4> <img src="./images/ico-3.png" alt="logo" height="28" width="28"> <br>
+                         data base </h4>
+                         SSL certificate installation and <br>
+                         configuration, redirection <br>
+                         configuration on your website 
+                         </td>
+                         <td class="td-service-1">
+                         <h4> <img src="./images/ico-4.png" alt="logo" height="28" width="28"> <br>
+                         data security </h4>
+                         strategy with leading data protection <br>
+                         technology to safeguard your critical<br>
+                         data.
+                     </td>
+                  </tr>
+                </table>
+             </td>
+         </tr>
+    </table>
+</body>
+</html>
+
